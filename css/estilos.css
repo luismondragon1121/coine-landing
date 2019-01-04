@@ -1,0 +1,588 @@
+*{
+  padding:0px;
+  margin:0px;
+   -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;     
+  }
+
+/*-----------------
+    menu
+------------------*/
+.menu
+{
+    position: relative;
+    margin-left: 500px;
+}
+
+.img-banner
+{
+    width: 100%;
+    height: 50%;
+}
+
+
+@media screen and (max-width:1200px) and (min-width:995px)
+{
+    .menu
+    {
+        position: relative;
+        margin-left:0px;
+    }
+    img-redes-cuadros2
+}
+
+@media screen and (max-width:994px) and (min-width: 768px)
+{
+   .menu
+    {
+        position: relative;
+        margin-left:0px;
+    }
+}
+
+@media screen and (max-width: 767px)
+{
+   .menu
+    {
+        position: relative;
+        margin-left:0px;
+    }
+}
+@media screen and (max-width: 450px)
+{
+  .menu
+    {
+        position: relative;
+        margin-left:0px;
+    }
+}
+
+/*-----------------
+    fin menu
+------------------*/
+/*-----------------
+    logo
+------------------*/
+#logo
+{
+    position: relative;
+    background-color: white;
+}
+/*-----------------
+    logo
+------------------*/
+
+/*-----------------------------
+    seccion tres partes
+------------------------------*/
+#tres-secciones
+{
+    position: relative;   
+    margin-top: 50px;
+    padding: 50px;
+}
+
+#apartado-redes
+{
+    background-color:white;
+}
+
+#seccion-2columnas
+{
+    padding: 50px;
+    position: relative;
+}
+#videos-texto2-videos
+{
+    position: relative;
+}
+
+#videos-texto2-videos li
+{
+   list-style: none;
+}
+
+#imgen-redes
+{
+    padding-top: 0px;
+    width: 100%;
+}
+
+#videos-texto
+{
+    position: relative;   
+}
+
+#videos-texto li
+{
+    list-style: none;
+}
+
+#videos-texto2 li
+{
+    list-style: none;
+    display: block;
+}
+
+#videos-texto2
+{
+   margin-top: 50px; 
+    width: 100%;
+
+}
+.borde-video
+{
+    border-bottom: 1px solid black
+}
+
+.img-seccion4-videos
+{
+    width: 50%;
+    padding: 10px;
+}
+
+.iconos-redes
+{
+    width: 15%;
+    display: inline;
+    margin-top: 50px
+}
+
+#iconos ul li
+{
+    list-style: none;
+    display: inline;
+}
+    
+.img-redes-cuadros
+{
+    width:70%;
+    padding:30px;
+    margin-left: -50px
+}
+
+.img-redes-cuadros1
+{
+    width:50%;
+    padding:5px;
+    margin-left: -10px;
+    margin-top: -5px
+}
+
+.img-redes1
+{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    padding: 40px;
+    margin-top: 0px
+}
+
+.nombre-inicio
+{
+    background-color:#F4F4F4;
+}
+.nom-inicio
+{
+    color:white;
+    font-size: 14px;
+    padding: 5px;
+    background-color: #007bff;
+    margin-left: -15px;
+    padding-left: 20px;
+}
+
+.nombre-inicio1
+{
+    background-color:#F4F4F4;
+}
+.nom-inicio1
+{
+    color:white;
+    font-size: 14px;
+    padding: 5px;
+    background-color: #007bff;
+    margin-left: -15px;
+    padding-left: 20px;
+}
+.descripcion-inicio
+{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.noticias
+{
+    margin-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px
+}
+/*-----------------------------d
+  fin seccion tres partes
+------------------------------*/
+
+/*------------------------------------
+    querys de seccion tres partes
+-------------------------------------*/
+
+@media screen and (max-width:1200px) and (min-width:995px)
+{
+  
+    
+    
+}
+
+@media screen and (max-width:994px) and (min-width: 768px)
+{
+      .cards
+    {
+        width: 200px;   
+    }
+    
+    #tres-secciones
+    {
+        position: relative;   
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 767px)
+{
+     .cards
+    {
+        margin-left: 25px; 
+    }
+    
+}
+@media screen and (max-width: 450px)
+{
+    .cards
+    {
+        margin-left: 25px;
+    }
+    
+    .img-seccion3
+    {
+        width: 200px;
+        padding-bottom: 10px;
+        margin-left: -100px
+    }
+    
+    .borde-video
+    {
+        border-bottom:none;
+    }
+    
+    .img-redes-cuadros1
+    {
+        width:60%;
+        padding:10px;
+        margin-left: 0px
+    }
+}
+
+/*------------------------------------
+    fin querys seccion tres partes
+-------------------------------------*/
+
+/*------------------------------------
+    seccion martin
+-------------------------------------*/
+
+#texto-video
+{
+    position: relative;
+    margin-top: 100px;
+}
+
+.titulo-martin
+{
+    font-size: 28px;
+    margin-bottom: 50px;
+    color: #005c9b;
+}
+
+.texto-martin
+{
+    text-align: justify;
+    font-size: 14px;
+}
+
+.pie-texto
+{
+    font-size: 16px;
+    color: #005c9b;
+}
+
+.video-martin
+{
+    width: 100%;
+    margin-bottom: 40px;
+    padding-right: 30px;
+    margin-top: 150px;
+}
+
+/*------------------------------------
+    fin de seccion martin
+-------------------------------------*/
+
+/*------------------------------------
+    querys de seccion martin
+-------------------------------------*/
+
+@media screen and (max-width:1200px) and (min-width:995px)
+{
+  
+    
+    
+}
+
+@media screen and (max-width:994px) and (min-width: 768px)
+{
+     .video-martin
+    {
+        width: 100%;
+    }
+    .img-redes-cuadros2
+    {
+                
+    }
+}
+
+@media screen and (max-width: 767px)
+{
+    .video-martin
+    {
+        width: 100%;
+        margin-bottom: 40px;
+        padding: 20px;
+    } 
+    .img-redes-cuadros2
+    {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 450px)
+{
+   .video-martin
+    {
+        width: 100%;
+        margin-bottom: 40px;
+        padding: 20px;
+    }
+    .img-redes-cuadros2
+    {
+        width: 50%;   
+    }
+}
+
+/*------------------------------------
+    fin querys martin
+-------------------------------------*/
+
+/*------------------------------
+        Estilos footer
+--------------------------------*/
+.foter
+{
+    background-color: #007bff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.foter ul
+{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.foter li a
+{
+    list-style: none;
+    margin-top: 10px;
+    font-size: 14px;
+    color: white;  
+    padding: 5px;
+}
+
+.footer-texto
+{
+    font-size: 24px;
+    color: white;
+    padding-top: 20px;
+}
+
+#foter-redes
+{
+    background-color: #007bff;
+    height: 70px;
+    
+}
+#foter-redes ul
+{
+    list-style: none;
+    margin: 5px;
+    margin-top: 0px;
+    float: right;
+    font-family: 'Poppins', sans-serif;
+}
+#foter-redes a
+{
+    list-style: none;
+    margin: 5px;
+    margin-top: 0px;
+}
+#foter-redes a img
+{
+  margin-left:1px;
+    padding-top: 15px;
+}
+#foter-redes li
+{
+    margin-left: -30px;
+    margin-top: 0px;
+    color: white;
+    font-size: 12px;
+}
+
+/*------------------------------
+        fin Estilos footer
+--------------------------------*/
+
+/*------------------------------
+   Estilos sectores
+--------------------------------*/
+#sectores
+{
+    position: relative;
+    top: 20px;
+    
+}
+.img-banner-sectores
+{
+    width: 100%;
+}
+.nav-imagen
+{
+     background-color: #007bff;
+    margin-bottom: 30px;
+}
+.nav-imagen ul li
+{
+    list-style: none;
+    padding-left: 20px;
+    color: white;
+}
+#descripcion-sectores
+{
+    position: relative;
+    margin-top: 20px;
+    text-align: justify
+}
+.nombre-sector
+{
+    background-color:#F4F4F4;
+}
+.nom-sector
+{
+    color:white;
+    font-size: 16px;
+    padding: 5px;
+    background-color: #007bff;
+    margin-left: -15px;
+    padding-left: 20px;
+}
+.descripcion
+{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 20px
+}
+
+.linea-descripcion
+{
+    width: 100%;
+    background-color: #4F4F4F;
+}
+.servicios li
+{
+   display: inline;
+}
+.servicios
+{
+    margin-top: 20px;
+}
+/*------------------------------
+        fin Estilos footer
+--------------------------------*/
+
+/*--------------------------------
+    efectos lestras banner
+----------------------------------*/
+.flotante {
+    position:relative;
+    color: white;
+    left:50px;
+    z-index: 1;
+    border: none;
+    font-family: 'Questrial', sans-serif;
+    -webkit-animation-name:anim1;
+    -webkit-animation-duration: 4s;
+    margin-top: -250px;
+}
+
+.flotante h2
+{
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 20px;
+    background-color: rgba(0, 97, 255, 0.6);
+}
+
+@media (max-width:1200px){
+    .flotante {
+    display:none;
+}
+}
+
+@-webkit-keyframes anim1{
+    0%{
+       bottom:-150px;
+    }
+  
+    100%{
+        bottom: 50px;
+    }
+}
+
+.img-redes-cuadros2
+{
+    width: 100%;
+    margin-top: 0px;
+    padding: 5px
+}
+
+
+.video-modal
+{
+     width: 100%;   
+}
+
+.txt-not
+{
+    padding: 20px; 
+    color: black;
+    text-align: justify;
+    margin-top: -20px;
+}
+
+.texto-amlo
+{
+    padding: 40px; 
+    font-size: 14px; 
+    margin-top: -60px;
+    text-align: justify;
+}
+/*--------------------------------
+   fin efectos lestras banner
+----------------------------------*
