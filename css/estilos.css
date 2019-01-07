@@ -704,13 +704,12 @@
         #noticias .owl-next
         {
             color: white;
-            font-size: 50px;
+            font-size: 40px;
             font-weight: bold;
             position: absolute;
             top: 10%;
             right: 20px;
-            height: auto;
-            width: 20px;                   
+       
         }
         #noticias .owl-prev
         {
@@ -799,13 +798,6 @@
     display: none;
 }
 
-.owl-theme .owl-nav [class*=owl-]:hover
-{
-    background-color:transparent;
-    border-radius: 50%;
-    height: 10px;
-}
-
 .owl-carousel .owl-nav button{
             font-size: 40px!important;
             font-weight: bold!important;
@@ -847,7 +839,6 @@
         color: white;
     }
 }
-}
 
 
 @media (max-width:768px)
@@ -869,7 +860,7 @@
     }
 }
     
-}
+
 
 @media (max-width:576px)
 {
