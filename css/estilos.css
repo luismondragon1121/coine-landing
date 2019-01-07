@@ -14,7 +14,6 @@
     position: relative;
     margin-left: 500px;
 }
-
 .img-banner
 {
     width: 100%;
@@ -98,25 +97,62 @@
     position: relative;
 }
 
+#videos-texto2-videos p 
+{
+    color:#007bff;
+    text-align: left;
+    position: relative;
+    padding: 0px 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
 #videos-texto2-videos li
 {
    list-style: none;
 }
-
+#videos-texto2-videos img
+{
+   cursor: pointer;
+}
 #imgen-redes
 {
     padding-top: 0px;
     width: 100%;
+    cursor: pointer;
 }
 
 #videos-texto
 {
     position: relative;   
+    padding: 50px 0px;
+}
+
+#videos-texto p
+{
+    color:#007bff;
+    text-align: left;
+    position: relative;
+    padding: 0px 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#s-seccion img
+{
+    padding: 20px;
+    width: 100%;
+    
 }
 
 #videos-texto li
 {
     list-style: none;
+}
+
+#videos-texto img
+{
+    cursor: pointer;
 }
 
 #videos-texto2 li
@@ -182,6 +218,13 @@
 .nombre-inicio
 {
     background-color:#F4F4F4;
+    margin-top:50px;
+}
+
+.nombre-inicio1
+{
+    background-color:#F4F4F4;
+    margin-top:0px;
 }
 .nom-inicio
 {
@@ -190,7 +233,7 @@
     padding: 5px;
     background-color: #007bff;
     margin-left: -15px;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .nombre-inicio1
@@ -578,11 +621,269 @@
 
 .texto-amlo
 {
-    padding: 40px; 
-    font-size: 14px; 
-    margin-top: -60px;
+    padding:  5px 40px; 
+    font-size: 14px;
     text-align: justify;
 }
 /*--------------------------------
    fin efectos lestras banner
-----------------------------------*
+----------------------------------*/
+#noticias
+{
+  padding: 50px 0px;
+}
+
+.cuadrobelleza1
+    {
+        background-color: white;
+        margin-top: 0px;
+        margin-bottom: 150px;
+        box-shadow: 0 0 60px 1px #afafaf;
+        width: 800px;
+        max-width: 100%;
+        margin:0px;
+        height: auto;
+    }
+
+    .cuadrobelleza1 .slider1
+    {
+        width: 100%;
+        margin: auto;
+        display: block;
+        padding: 0px;
+    }
+    .cuadrobelleza1 h5
+    {
+        font-size: 20px;
+        text-align: center;
+        color:#007bff;
+        font-weight: bold;
+        padding: 50px 10px 10px;
+    }
+    .cuadrobelleza1 p
+    {
+        text-align: justify;
+        padding: 0px 20px 0px;
+    }
+
+    #noticias .btn-primary
+    {
+        margin-bottom: 10px;
+    }
+    .noticias-seccion1
+    {
+        width: 100%;
+    }
+    #articulos2{
+        padding: 50px 0px;
+    }   
+
+    .p-articulo
+    {
+        padding: 20px 20px;
+    }
+
+    .s-articulo
+    {
+        padding: 20px 20px;
+        
+    }
+    #seccio-vs img
+    {
+        padding: 50px;
+        width: 100%;
+    }
+
+    #imagenesfinal img
+    {
+        padding: 30px;
+        width: 100%;
+    }
+
+/* estilos carruseles*/
+ #noticias .owl-prev, #noticias .owl-next
+    {
+        color:  #007bff;
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+        #noticias .owl-dot 
+        {
+            display: none;
+        }
+        #noticias .owl-next
+        {
+            color: white;
+            font-size: 50px;
+            font-weight: bold;
+            position: absolute;
+            top: 10%;
+            right: 20px;
+            height: auto;
+            width: 20px;                   
+        }
+        #noticias .owl-prev
+        {
+            color: white;
+            font-size: 50px;
+            font-weight: bold;
+            position: absolute;
+            top: 10%;
+            left: 20px;
+        }
+
+#ibf .owl-prev
+{
+    color:  white;
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    left: 40px;
+}
+    #ibf .owl-next
+    {
+        color: white;
+        font-size: 50px;
+        font-weight: bold;
+        position: absolute;
+        top: 30%;
+        right: 20px;
+        height: auto;
+        width: 40px;
+    }
+
+    #ibf .owl-dot
+    {
+        display: none;
+    }
+
+#s-seccion .owl-next
+    {
+        color: white;
+        font-size: 50px;
+        font-weight: bold;
+        position: absolute;
+        top: 10%;
+        right: 20px;
+        height: auto;
+        width: 20px;                   
+    }
+    #s-seccion .owl-prev
+    {
+        color: white;
+        font-size: 50px;
+        font-weight: bold;
+        position: absolute;
+        top: 10%;
+        left: 20px;
+    }
+    #s-seccion .owl-dot
+    {
+        display: none;
+    }
+
+#seccio-vs .owl-next
+{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    right: 60px;
+    height: auto;
+    width: 20px;                   
+}
+#seccio-vs .owl-prev
+{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    left: 60px;
+}
+#seccio-vs .owl-dot
+{
+    display: none;
+}
+
+
+
+ /* fin estilos carrusel*/
+
+
+    /*--------------------------
+    media querys
+---------------------------*/
+@media (max-width:1200px)
+{
+   
+}
+
+@media (max-width:992px)
+{
+    #ibf .owl-next
+    {
+        position: absolute;
+        top: 30%;                
+        right: 30px;
+        color: white;
+
+    }
+    #ibf .owl-prev
+    {
+        position: absolute;
+        top: 30%;                
+        left: 30px;
+        color: white;
+    }
+}
+}
+
+
+@media (max-width:768px)
+{   
+    #ibf .owl-next
+    {
+        position: absolute;
+        top: 30%;                
+        right: 30px;
+        color: white;
+
+    }
+    #ibf .owl-prev
+    {
+        position: absolute;
+        top: 30%;                
+        left: 30px;
+        color: white;
+    }
+}
+    
+}
+
+@media (max-width:576px)
+{
+   #ibf .owl-next
+    {
+        position: absolute;
+        top: 30%;                
+        right: 30px;
+        color: white;
+
+    }
+    #ibf .owl-prev
+    {
+        position: absolute;
+        top: 30%;                
+        left: 30px;
+        color: white;
+    }
+    .servicios li 
+    {
+        display:block;
+    }
+   
+}
