@@ -1,0 +1,19 @@
+#slider-continentes{
+    background-color: red;
+    padding: 100px 0px;
+    .slider-for{
+        background-color: yellow;
+        widows: 100%;
+        padding: 100px;
+    }
+
+    .slider-nav{
+        .slick-slide{
+            padding: 20px;
+            h1{
+                text-align: center;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
