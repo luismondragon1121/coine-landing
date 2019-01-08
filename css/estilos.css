@@ -9,10 +9,8 @@
 /*-----------------
     menu
 ------------------*/
-.menu
-{
-    position: relative;
-    margin-left: 500px;
+.navbar-nav {
+    margin: 0 auto;
 }
 .img-banner
 {

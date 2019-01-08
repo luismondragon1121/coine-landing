@@ -1,13 +1,25 @@
 #slider-continentes{
-    background-color: red;
     padding: 100px 0px;
     .slider-for{
-        background-color: yellow;
-        widows: 100%;
-        padding: 100px;
+        background-color: #f4f4f4;
+       
+        padding: 50px;
+        article{
+            padding: 0px 20px;
+            h1{
+                text-transform: uppercase;
+                font-weight: 600;
+                letter-spacing: 10px;
+                color: #007bff;
+                margin-bottom: 20px;
+            }  
+            p{
+                text-align: justify;
+            } 
+        }
     }
 
-    .slider-nav{
+    .responsive{
         .slick-slide{
             padding: 20px;
             h1{
@@ -15,5 +27,22 @@
                 text-transform: uppercase;
             }
         }
+    }
+   
+    .slider{
+        .slick-prev:before, .slick-next:before {
+            font-family: 'slick';
+            font-size: 20px;
+            line-height: 1;
+            color: #007bff;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+          
+        
+    }
+    .slick-slide {
+        
     }
 }

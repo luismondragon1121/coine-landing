@@ -1,12 +1,27 @@
 #slider-continentes {
-  background-color: red;
   padding: 100px 0px; }
   #slider-continentes .slider-for {
-    background-color: yellow;
-    widows: 100%;
-    padding: 100px; }
-  #slider-continentes .slider-nav .slick-slide {
+    background-color: #f4f4f4;
+    padding: 50px; }
+    #slider-continentes .slider-for article {
+      padding: 0px 20px; }
+      #slider-continentes .slider-for article h1 {
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 10px;
+        color: #007bff;
+        margin-bottom: 20px; }
+      #slider-continentes .slider-for article p {
+        text-align: justify; }
+  #slider-continentes .responsive .slick-slide {
     padding: 20px; }
-    #slider-continentes .slider-nav .slick-slide h1 {
+    #slider-continentes .responsive .slick-slide h1 {
       text-align: center;
       text-transform: uppercase; }
+  #slider-continentes .slider .slick-prev:before, #slider-continentes .slider .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    color: #007bff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
