@@ -118,7 +118,7 @@
         
                                     </article>
                                 </div>
-                                <div class="col-md-12 col-lg-6">
+                                <div class="col-md-12 col-lg-6 d-flex align-items-center">
                                         <iframe width="100%" height="315" src="https://www.youtube.com/embed/2IJdw8N96x4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </div>
                             </div>    
@@ -136,7 +136,7 @@
                                     </p> Consolidando los puentes comerciales entre Latinoamérica y África y con el objetivo de intercambiar estrategias que beneficien las inversiones y exportaciones con otras áreas geográficas en el mundo.  </p>
                                     </article>
                                 </div>
-                                    <div class="col-md-12 col-lg-6">
+                                    <div class="col-md-12 col-lg-6 d-flex align-items-center">
                                             <iframe width="100%" height="315" src="https://www.youtube.com/embed/_Frm5_8GgK8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
                             </div>
@@ -159,7 +159,7 @@
 
                                     </article>
                                 </div>
-                                <div class="col-md-12 col-lg-6">
+                                <div class="col-md-12 col-lg-6 d-flex align-items-center">
                                         <iframe width="100%" height="315" src="https://www.youtube.com/embed/fQAg1zK_RnE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 </div>
                             </div>
@@ -168,28 +168,28 @@
                 <div class="slider responsive">
                         <div>
                             <div class="row ">
-                                <div class="col-sm-12 col-md-4"> 
+                                <div class=" col-md-4"> 
                                         <img class="card-img-top" src="img/noticias/FOTO1.jpg" alt="Card image cap">
 
                                 </div>
-                                <div class="col-sm-12 col-md-4"> 
+                                <div class=" col-md-4 d-none d-md-block"> 
                                         <img class="card-img-top" src="img/noticias/FOTO1.jpg" alt="Card image cap">
 
                                 </div>
-                                    <div class="col-sm-12 col-md-4"> 
+                                    <div class=" col-md-4 d-none d-md-block"> 
                                             <img class="card-img-top" src="img/noticias/FOTO1.jpg" alt="Card image cap">
                                 </div>
                             </div>
                         </div>
                         <div>
                             <div class="row ">
-                                    <div class="col-sm-12 col-md-4">
+                                    <div class=" col-md-4">
                                             <img class="card-img-top" src="img/noticias/FOTO2.jpg" alt="Card image cap">  
                                     </div>
-                                    <div class="col-sm-12 col-md-4">
+                                    <div class=" col-md-4 d-none d-md-block">
                                             <img class="card-img-top" src="img/noticias/FOTO2.jpg" alt="Card image cap">
                                     </div>
-                                    <div class="col-sm-12 col-md-4">
+                                    <div class=" col-md-4 d-none d-md-block">
                                             <img class="card-img-top" src="img/noticias/FOTO2.jpg" alt="Card image cap"> 
                                     </div>
                             </div>
@@ -200,10 +200,10 @@
                                         <div class="col-md-4">
                                                 <img class="card-img-top" src="img/noticias/FOTO3.jpg" alt="Card image cap">
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-md-4 d-none d-md-block">
                                                 <img class="card-img-top" src="img/noticias/FOTO3.jpg" alt="Card image cap">
                                         </div>
-                                        <div class="col-md-4">
+                                        <div class="col-md-4 d-none d-md-block">
                                                 <img class="card-img-top" src="img/noticias/FOTO3.jpg" alt="Card image cap">
                                         </div>
                                 </div>
@@ -250,7 +250,7 @@
 $('.slider-for').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: false,
+    arrows: true,
     fade: true,
     asNavFor: '.responsive'
   });
@@ -258,6 +258,7 @@ $('.slider-for').slick({
   $('.responsive').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
+    arrows: false,
     asNavFor: '.slider-for',
     centerMode: true,
     focusOnSelect: true,
@@ -268,7 +269,7 @@ $('.slider-for').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         infinite: true,
-        dots: true
+        
       }
     },
     {

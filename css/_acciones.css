@@ -25,3 +25,18 @@
     color: #007bff;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
+
+/*--------------------------
+    media querys
+---------------------------*/
+@media (max-width: 576px) {
+  #slider-continentes .slider-for article {
+    padding: 0px; }
+    #slider-continentes .slider-for article h1 {
+      text-align: center; }
+  iframe {
+    width: 100%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px; } }
