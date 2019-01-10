@@ -26,7 +26,6 @@
         position: relative;
         margin-left:0px;
     }
-    img-redes-cuadros2
 }
 
 @media screen and (max-width:994px) and (min-width: 768px)
@@ -720,25 +719,45 @@
         }
       
 
+#ibf button
+{
+    background-color: rgba(0, 128, 188, 0.5) !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
 #ibf .owl-prev
 {
     color:  white;
-    font-size: 50px;
-    font-weight: bold;
     position: absolute;
     top: 30%;
-    left: 40px;
+    left: -20px;
+    text-align: center; 
+    line-height: 5px; 
+    
 }
+
+.owl-prev span
+{
+    font-size: 60px;
+    line-height: 0px;
+
+} 
     #ibf .owl-next
     {
         color: white;
-        font-size: 50px;
+        font-size: 80px;
         font-weight: bold;
         position: absolute;
         top: 30%;
-        right: 20px;
-        height: auto;
-        width: 40px;
+        right: -20px;
+        line-height: 5px;
+    }
+    .owl-next span
+    {
+        font-size: 60px;
+        line-height: 0px;
     }
 
     #ibf .owl-dot
@@ -845,7 +864,7 @@
     {
         position: absolute;
         top: 30%;                
-        right: 30px;
+        right: -20px;
         color: white;
 
     }
@@ -853,7 +872,7 @@
     {
         position: absolute;
         top: 30%;                
-        left: 30px;
+        left: -20px;
         color: white;
     }
 }
@@ -880,6 +899,13 @@
     .servicios li 
     {
         display:block;
+    }
+    #ibf button
+    {
+        background-color: transparent !important;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
     }
    
 }
