@@ -37,12 +37,77 @@
             color: #007bff;
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
-        }
-        
-          
-        
+        }   
     }
-    .slick-slide {
-        
+   
+}
+
+#section-continentes{
+    padding-top:100px;
+    .content-text{
+        h1{
+            text-align:center;
+            letter-spacing: 10px;
+        }
+    }
+    .content-text{
+        border-right: 2px solid #d1d1d1;
+        height: 100%;
+    }
+    .content-items{
+        background-color:#f4f4f4;
+        h1{
+            text-transform: uppercase;
+            font-size: 30px;
+            letter-spacing: 5px;
+            margin-bottom: 20px;
+            color: #8c8c8c;
+        }
+    }
+}
+#nav-tab{
+    margin-bottom: 100px;
+}
+/*--------------------------
+    media querys
+---------------------------*/
+
+
+@media (max-width:1200px)
+{
+   
+}
+
+@media (max-width:992px)
+{
+    
+}
+
+
+@media (max-width:768px)
+{
+   
+  
+}
+
+@media (max-width:576px)
+{
+    #slider-continentes{
+        .slider-for{
+            article{
+                padding: 0px;
+                h1{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    iframe {
+        width: 100%;
+       
+        border-top-width: 0px;
+        border-right-width: 0px;
+        border-bottom-width: 0px;
+        border-left-width: 0px;
     }
 }
