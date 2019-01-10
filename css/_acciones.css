@@ -26,6 +26,26 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
 
+#section-continentes {
+  padding-top: 100px; }
+  #section-continentes .content-text h1 {
+    text-align: center;
+    letter-spacing: 10px; }
+  #section-continentes .content-text {
+    border-right: 2px solid #d1d1d1;
+    height: 100%; }
+  #section-continentes .content-items {
+    background-color: #f4f4f4; }
+    #section-continentes .content-items h1 {
+      text-transform: uppercase;
+      font-size: 30px;
+      letter-spacing: 5px;
+      margin-bottom: 20px;
+      color: #8c8c8c; }
+
+#nav-tab {
+  margin-bottom: 100px; }
+
 /*--------------------------
     media querys
 ---------------------------*/
