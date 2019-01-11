@@ -137,7 +137,7 @@
 
 #s-seccion img
 {
-    padding: 20px;
+    padding: 30px;
     width: 100%;
     
 }
@@ -636,6 +636,7 @@
         max-width: 100%;
         margin:0px;
         height: auto;
+        
     }
 
     .cuadrobelleza1 .slider1
@@ -683,7 +684,7 @@
     }
     #seccio-vs img
     {
-        padding: 50px;
+        padding: 30px;
         width: 100%;
     }
 
@@ -704,7 +705,7 @@
             font-size: 40px;
             font-weight: bold;
             position: absolute;
-            top: 10%;
+            top: 15%;
             right: 20px;
        
         }
@@ -714,17 +715,25 @@
             font-size: 50px;
             font-weight: bold;
             position: absolute;
-            top: 10%;
+            top: 15%;
             left: 20px;
         }
       
 
 #ibf button
 {
-    background-color: rgba(0, 128, 188, 0.5) !important;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+    background-color: white !important;
+    width: 40px !important;
+    height: 60px !important;
+    color: #007bff !important;
+}
+
+#ibf button:hover
+{
+    background-color:#007bff !important;
+    width: 40px !important;
+    height: 60px !important;
+    color: white !important;
 }
 
 #ibf .owl-prev
@@ -732,7 +741,7 @@
     color:  white;
     position: absolute;
     top: 30%;
-    left: -20px;
+    left: 0px;
     text-align: center; 
     line-height: 5px; 
     
@@ -751,7 +760,7 @@
         font-weight: bold;
         position: absolute;
         top: 30%;
-        right: -20px;
+        right: 0px;
         line-height: 5px;
     }
     .owl-next span
@@ -765,16 +774,31 @@
         display: none;
     }
 
+#s-seccion button
+{
+    background-color:transparent!important;
+    width: 40px !important;
+    height: 60px !important;
+    color: white!important;
+}       
+#s-seccion button:hover
+{
+    background-color:#007bff !important;
+    width: 40px !important;
+    height: 60px !important;
+    color: white !important;
+}
+
 #s-seccion .owl-next
     {
         color: white;
         font-size: 50px;
         font-weight: bold;
         position: absolute;
-        top: 10%;
-        right: 20px;
+        top: 30%;
+        right: 0px;
         height: auto;
-        width: 20px;                   
+        width: 0px;                   
     }
     #s-seccion .owl-prev
     {
@@ -782,13 +806,29 @@
         font-size: 50px;
         font-weight: bold;
         position: absolute;
-        top: 10%;
-        left: 20px;
+        top: 30%;
+        left: 10px;
     }
     #s-seccion .owl-dot
     {
         display: none;
     }
+
+#seccio-vs button
+{
+    background-color:transparent!important;
+    width: 40px !important;
+    height: 60px !important;
+    color: white!important;
+}
+    
+#seccio-vs button:hover
+{
+    background-color:#007bff !important;
+    width: 40px !important;
+    height: 60px !important;
+    color: white !important;
+}
 
 #seccio-vs .owl-next
 {
@@ -797,7 +837,7 @@
     font-weight: bold;
     position: absolute;
     top: 30%;
-    right: 60px;
+    right: 30px;
     height: auto;
     width: 20px;                   
 }
@@ -808,7 +848,7 @@
     font-weight: bold;
     position: absolute;
     top: 30%;
-    left: 60px;
+    left: 30px;
 }
 #seccio-vs .owl-dot
 {
@@ -831,12 +871,6 @@
  /* fin estilos carrusel*/
 
  /* estilos acciones */
-
-
-
-
-
-
 
 /*--------------------------
     media querys
@@ -873,7 +907,7 @@
     {
         position: absolute;
         top: 30%;                
-        right: -20px;
+        right: 0px;
         color: white;
 
     }
@@ -881,7 +915,7 @@
     {
         position: absolute;
         top: 30%;                
-        left: -20px;
+        left: 0px;
         color: white;
     }
   
@@ -895,7 +929,7 @@
     {
         position: absolute;
         top: 30%;                
-        right: 30px;
+        right: 20px;
         color: white;
 
     }
@@ -903,7 +937,37 @@
     {
         position: absolute;
         top: 30%;                
-        left: 30px;
+        left: 20px;
+        color: white;
+    }
+    #s-seccion .owl-next
+    {
+        position: absolute;
+        top: 30%;                
+        right: 20px;
+        color: white;
+
+    }
+    #s-seccion .owl-prev
+    {
+        position: absolute;
+        top: 30%;                
+        left: 20px;
+        color: white;
+    }
+    #seccio-vs .owl-next
+    {
+        position: absolute;
+        top: 30%;                
+        right: 20px;
+        color: white;
+
+    }
+    #seccio-vs .owl-prev
+    {
+        position: absolute;
+        top: 30%;                
+        left: 20px;
         color: white;
     }
     .servicios li 
@@ -912,10 +976,11 @@
     }
     #ibf button
     {
-        background-color: transparent !important;
+        background-color: transparent!important;
         width: 40px;
         height: 40px;
-        border-radius: 50%;
+        color: white !important;
+        
     }
 
 }
