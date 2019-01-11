@@ -830,6 +830,14 @@
 
  /* fin estilos carrusel*/
 
+ /* estilos acciones */
+
+
+
+
+
+
+
 /*--------------------------
     media querys
 ---------------------------*/
@@ -855,6 +863,7 @@
         left: 30px;
         color: white;
     }
+    
 }
 
 
@@ -875,6 +884,7 @@
         left: -20px;
         color: white;
     }
+  
 }
     
 
@@ -907,53 +917,5 @@
         height: 40px;
         border-radius: 50%;
     }
-   
-}
 
-ul.tabs
-{
-    width: 100%;
-    list-style: none;
-    display: flex;
-    margin-top: 10px;
-    justify-content: center;
-}
-
-ul.tabs li
-{
-    width: 18%;
-    
-}
-
-ul.tabs li a
-{
-    color:#007bff;
-    text-decoration: none;
-    font-size: 28px;
-    text-align: center;
-    display: block;
-    padding: 0px 0px;
-}
-
-ul.tabs li a:hover
-{
-    color:#0000FF;
-  
-}
-
-.bord_lateral
-{
-    width: 1;
-    height: 20px;
-    color:#d1d1d1;
-}
-
-
-.texto_principal
-{
-    padding: 30px 100px;
-    text-align: center;
-    margin-top: 30px;
-    color: #007bff;
-    font-size: 20px;
 }
