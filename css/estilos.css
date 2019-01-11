@@ -542,13 +542,18 @@
 .servicios li
 {
    display: inline;
-
+    padding: 10px 1px;
    font-size: 16px;
+}
+
+.servicios ul 
+{
+    margin: 10px 10px;
 }
 
 .servicios li:hover
 {
-    color:#4F4F4F;
+    background-color:#005DA1;
 }
 .servicios
 {
