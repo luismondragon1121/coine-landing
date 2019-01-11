@@ -542,6 +542,13 @@
 .servicios li
 {
    display: inline;
+
+   font-size: 16px;
+}
+
+.servicios li:hover
+{
+    color:#4F4F4F;
 }
 .servicios
 {
@@ -897,6 +904,10 @@
         left: 30px;
         color: white;
     }
+    .servicios li 
+    {
+        display:block;
+    }
     
 }
 
@@ -917,6 +928,10 @@
         top: 30%;                
         left: 0px;
         color: white;
+    }
+    .servicios li 
+    {
+        display:block;
     }
   
 }
