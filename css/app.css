@@ -70,7 +70,7 @@ ul.tabs {
   padding: 30px 100px;
   text-align: center;
   margin-top: 30px;
-  color: #007bff;
+  color: #4f6a90;
   font-size: 20px; }
 
 ul.tabs li a:hover {
@@ -122,7 +122,7 @@ ul.tabs li a:hover {
     padding: 30px 10px;
     text-align: center;
     margin-top: 30px;
-    color: #007bff;
+    color: #4f6a90;
     font-size: 18px; } }
 
 @media (max-width: 768px) {
@@ -130,7 +130,7 @@ ul.tabs li a:hover {
     padding: 30px 0px;
     text-align: center;
     margin-top: 30px;
-    color: #007bff;
+    color: #4f6a90;
     font-size: 18px; }
   ul.tabs li {
     width: 28%; }
@@ -157,7 +157,7 @@ ul.tabs li a:hover {
     padding: 30px 30px;
     text-align: center;
     margin-top: 30px;
-    color: #007bff;
+    color: #4f6a90;
     font-size: 16px; }
   ul.tabs li {
     width: 28%; }
