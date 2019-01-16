@@ -531,7 +531,8 @@
 {
     margin-top: 50px;
     margin-bottom: 20px;
-    padding: 20px
+    padding: 20px;
+    color: #4f6a90;
 }
 
 .linea-descripcion
@@ -553,11 +554,15 @@
 
 .servicios li:hover
 {
-    background-color:#005DA1;
+    color:#d1d1d1;
 }
 .servicios
 {
     margin-top: 20px;
+}
+.pr-seccion
+{
+    color: #4f6a90;
 }
 /*------------------------------
         fin Estilos footer
@@ -629,6 +634,8 @@
     padding:  5px 40px; 
     font-size: 14px;
     text-align: justify;
+    color: #4f6a90;
+    letter-spacing: 1px;
 }
 /*--------------------------------
    fin efectos lestras banner
