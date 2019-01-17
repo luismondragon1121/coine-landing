@@ -583,13 +583,16 @@
     margin-top: -250px;
 }
 
+
 .flotante h2
 {
     color: white;
     font-size: 26px;
     font-weight: bold;
     padding: 20px;
+    text-decoration: underline transparent !important;
     background-color: rgba(0, 97, 255, 0.6);
+    text-decoration: underline transparent !important;
 }
 
 @media (max-width:1200px){
